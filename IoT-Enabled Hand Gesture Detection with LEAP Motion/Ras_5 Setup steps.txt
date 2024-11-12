@@ -1,0 +1,13 @@
+1，install gemini software
+2, download leapc-python-api
+3，禁用外部安装警告
+3, open cmd:
+	# Create and activate a virtual environment
+	
+	pip install paho-mqtt	
+
+	pip install -r requirements.txt
+	pip install -e leapc-python-api
+
+	python examples/tracking_event_example.py
+然后每一次启动都要安装Gemini
