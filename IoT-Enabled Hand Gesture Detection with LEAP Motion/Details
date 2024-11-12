@@ -1,0 +1,25 @@
+This project involves tracking the fingers of a prosthetic using a LEAP motion controller. The motivation for the project is being able to track what a prosthesis is doing when it is used in real life (outside of laboratory settings). Students can interface with the LEAP motion controller using Unity3D or Python. Examples of interfacing with the device exist online and there are some in the lab. The overall goal of the project is to be able to point the LEAP at a hand and be able to say what grasp the hand is in. If that can be achieved secondary goals would be to test what angles and perspectives the device works well in (this is to see if the method would be sensible to try and use outside of the lab). When students have done this project before we normally start by tracking normal hands and then move onto the prosthesis. You are not required to program the movements of the prosthesis; we already have code to do that. You would only have to be able to recognise a limited number of grasps (around 5 or 6).
+
+The positives of the project:
+a) There is a recent review paper which covers the motivations for this work, which makes the literature review quite easy. 
+b) The project involves working with hardware in a closed-loop, which some people find fun.
+
+The risks with this project:
+a) There is not a huge amount of literature available about the LEAP motion sensor. It is important to know how it works and what it does before the demo.
+b) Using the LEAP motion controller in Unity3D is quite demanding, it is not a good idea to do this on an old laptop.
+
+Aim:
+To determine whether augmented reality (AR) hand tracking methods can be used to monitor artificial hands.
+
+Core Objectives:
+	1. Survey literature on activity monitoring of artificial hands.
+	2. Interface LEAP-motion sensor with a computer (software).
+	3. Obtain a simple measure of finger position from LEAP sensor (software).
+	4. Write methods to record finger position as a time series (software).
+	5. Log the detected grasp or finger position data to an IoT dashboard.
+	6. Send commands to the prosthetic hand from the IoT dashboard. 
+	7. Make a portable version of the system (e.g. the LEAP sensor running on a raspberry pi). 
+	8. Write up results in the form of a thesis.
+
+
+
